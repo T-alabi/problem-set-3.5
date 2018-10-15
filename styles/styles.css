@@ -30,7 +30,14 @@ nav a{
 a:hover{
   background-color: white;
 }
-
+}
+#Morinari{
+   height: 270px;
+}
+#olympic{
+  width: 350px;
+  height: 400px;
+}
 #homeimg{
   width: 1200px;
   height: 600px;
