@@ -1,0 +1,82 @@
+body {
+    margin-left: 75px;
+    margin-right: 75px;
+      background-color: rgb(218, 165, 32);
+}
+* {
+
+}
+nav {
+  width: 100%;
+  height: 38px;
+}
+nav a{
+   display: block;
+    float: left;
+  font-family: comic-sans;
+   color:white;
+   font-size: 19px;
+   background-color: #2583b2;
+   border: 3px solid #000;
+   padding-top: 20px;
+     padding-right: 10px;
+     padding-bottom: 10px;
+     padding-left: 10px;
+      text-decoration: none;
+}
+ nav a:hover{
+    background-color:#0f5375;
+ }
+a:hover{
+  background-color: white;
+}
+
+img {
+  border-radius: 25px;
+border: 3px solid #000;
+}
+/* image controls */
+#Morinari{
+   height: 270px;
+}
+#olympic{
+  width: 350px;
+  height: 400px;
+}
+#homeimg{
+  width: 1200px;
+  height: 600px;
+}
+#simone{
+  width: 450px;
+}
+#mary{
+      width: 350px;
+ #nastia{
+   width: 350;
+ }
+}
+ #logo{
+font-size:30px;
+font-family: 'Hind', sans-serif;
+ letter-spacing: -2px;
+ text-shadow: 1px 1px 2px #458d9b;
+ font-weight:bold;
+ padding-left: 20px;
+ padding-right: 40px;
+ margin-right: 20px;
+ margin-left: -75px;
+ margin-top: -5px;
+ float: left;
+ display: block;
+ border: 3px solid #000;
+ padding-top: 20px;
+   padding-right: 10px;
+   padding-bottom: 15spx;
+   padding-left: 10px;
+background-color: #0f5375;
+color:white;
+ }
+ .medalsbox{
+ background-color: #C0C0C0;
+ }
