@@ -1,18 +1,29 @@
 body {
-    margin-left: 75px;
-    margin-right: 75px;
+    margin-left: 95px;
+    margin-right: 95px;
       background-color: rgb(218, 165, 32);
 }
+/*classes */
 .others{
   box-sizing: content-box;
   border: 3px solid #000;
   width: 425px;
+  background-color: #C0C0C0;
 }
 *.others{
   padding-top: 10px;
   padding-bottom: 30px;
   padding-left: 65px;
 }
+*.medalsbox{
+background-color: #C0C0C0;
+ border: 3px solid #000;
+ width: 300px;
+height: 140px;
+padding-top: 10px;
+padding-bottom: 30px;
+}
+
 li[]{
   color: white;
 }
@@ -31,6 +42,7 @@ table, th, td{
 th{
   background-color: #ad792b;
 }
+
 nav a{
    display: block;
     float: left;
@@ -45,8 +57,11 @@ nav a{
      padding-left: 10px;
       text-decoration: none;
 }
+nav a:visited{
+  color: white;
+}
 a:active{
-  color:#000000;
+  color:#42ebf4;
 }
  nav a:hover{
     background-color:#0f5375;
@@ -54,14 +69,18 @@ a:active{
 a:hover{
   background-color: white;
 }
+a:visited{
+  color: #1b425b;
+}
+/* image controls */
 [id|=homeimg]{
   border: 4px solid #96009b;
 }
+/*type selectors */
 img {
 border-radius: 25px;
 border: 3px solid #000;
 }
-/* image controls */
 #Morinari{
    height: 270px;
 }
@@ -91,7 +110,7 @@ font-family: 'Hind', sans-serif;
  padding-left: 20px;
  padding-right: 40px;
  margin-right: 20px;
- margin-left: -75px;
+ margin-left: -95px;
  margin-top: -5px;
  float: left;
  display: block;
@@ -102,7 +121,4 @@ font-family: 'Hind', sans-serif;
    padding-left: 10px;
 background-color: #0f5375;
 color:white;
- }
- .medalsbox{
- background-color: #C0C0C0;
  }
