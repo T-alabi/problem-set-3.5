@@ -2,6 +2,7 @@ body {
     margin-left: 95px;
     margin-right: 95px;
       background-color: rgb(218, 165, 32);
+      font-size: 15px;
 }
 /*classes */
 .others{
@@ -80,6 +81,11 @@ a:visited{
 img {
 border-radius: 25px;
 border: 3px solid #000;
+}
+figcaption{
+  font-size: 15px;
+  color: #213f51;
+  text-decoration: underline;
 }
 #Morinari{
    height: 270px;
