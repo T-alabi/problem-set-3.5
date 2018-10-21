@@ -96,6 +96,7 @@ figcaption{
 }
 h2, figcaption{
   text-align: center;
+  padding: 10px;
 }
 h1{
   text-decoration: underline;
