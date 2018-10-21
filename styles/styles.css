@@ -21,7 +21,7 @@ img + figcaption{
 }
 .medalsbox{
   height: 140px;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 .table{
@@ -73,7 +73,6 @@ figcaption{
 }
 h2, figcaption{
   text-align: center;
-  padding: 10px;
 }
 h1{
   text-decoration: underline;
