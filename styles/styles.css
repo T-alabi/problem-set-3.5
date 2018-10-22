@@ -6,7 +6,7 @@ body {
 }
 /* combinators */
 nav > a{
-font-size: 25px;
+font-size: 23px;
 }
 img + figcaption{
   font-size: 19px;
@@ -27,7 +27,7 @@ div{
   background-color: #C0C0C0;
 }
 .medalsbox{
-  height: 140px;
+  height: 180px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -65,7 +65,10 @@ border-collapse: collapse;
 *.others{
   padding-top: 10px;
   padding-bottom: 30px;
-  padding-left: 65px;
+  padding-right: 10px;
+  height: 250px;
+  text-align: center;
+  
 }
 *.medalsbox{
 background-color: #C0C0C0;
@@ -177,18 +180,18 @@ color:white;
     padding-left: 10px;
     text-decoration: none;
  }
+ /*pseudo classes*/
  nav a:visited{
    color: white;
- }
- a:active{
-   color:#42ebf4;
  }
   nav a:hover{
      background-color:#0f5375;
   }
-
  a:hover{
    background-color: white;
+ }
+nav a:active{
+   background-color: black;
  }
  a:visited{
    color: #1b425b;
