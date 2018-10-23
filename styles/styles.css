@@ -60,6 +60,7 @@ float: left;
 }
 .table{
 border-collapse: collapse;
+margin-left: 80px;
 }
 /*universal selectors*/
 *.others{
@@ -68,7 +69,7 @@ border-collapse: collapse;
   padding-right: 10px;
   height: 250px;
   text-align: center;
-  
+margin-left: 285px;
 }
 *.medalsbox{
 background-color: #C0C0C0;
